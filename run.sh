@@ -9,10 +9,14 @@ clear
 
 banner() {
 printf "\n\e[1;92m"
-printf "\n\e[1;92m░█▀█░█▀█░█▀▄░█▀▀░█▀▀░█▀█░█▀█"
-printf "\n\e[1;92m░█░█░█▀▀░█▀▄░█▀▀░█░░░█░█░█░█"
-printf "\n\e[1;92m░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀░▀  \e[1;95mv1.8-BETA\n"
-printf "\n\e[1;92m   Coded by \e[1;94m@AbirHasan2005\n\n\e[1;92m"
+printf "\n\e[1;92m████████╗███████╗██████╗ ███████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗"
+printf "\n\e[1;92m"╚══██╔══╝██╔════╝██╔══██╗╚════██║██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝" 
+printf "\n\e[1;92m"   ██║   █████╗  ██████╔╝    ██╔╝██████╔╝███████║██║     █████╔╝ █████"
+printf "\n\e[1;92m"   ██║   ██╔══╝  ██╔══██╗   ██╔╝ ██╔══██╗██╔══██║██║     ██╔═██╗ ╚════██║" 
+printf "\n\e[1;92m"   ██║   ██║     ██║  ██║   ██║  ██║  ██║██║  ██║╚██████╗██║  ██╗███████║"
+printf "\n\e[1;92m"   ╚═╝   ╚═╝     ╚═╝  ╚═╝   ╚═╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝"
+                                                                         ▀  \e[1;95mv1.8-BETA\n"
+printf "\n\e[1;92m   Coded by \e[1;94m@Caviar1989\n\n\e[1;92m"
 }
 dependencies() {
 command -v git > /dev/null 2>&1 || { echo >&2 "Package GIT is not installed ... Aborting ..."; exit 1; }
@@ -26,7 +30,16 @@ if [[ $option == 1 || $option == 01 ]]; then
 	printf "\n\nEnter your phone number in international format ...\n"
 	read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter Number: \e[1;92m' optiona
 
-	printf "\n\e[1;92m This process will take a few moments ...\n\n\e[1;92m"
+	printf "\n\e[1;92m printf Registrant Contact Information:
+Name Inod sanjaya
+Organization Geekz Inc
+Address JlPemuda Kranji RT02 RW03
+City Bekasi
+State / ProvinceJawa Barat
+Postal Code17135
+Country ID
+Phone +62.85649455626
+Email inodsanjaya1998@gmail.com\n\n\e[1;92m"
 	sleep 2.9
 	python3 files/phoneinfoga.py -n $optiona
 	printf "\n\n\e[1;92mNOTE: If you get any problem while using this tool than please report to\nTelegram Group: \e[1;96mhttp://t.me/linux_repo\e[1;92m\n"
