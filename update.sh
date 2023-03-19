@@ -1,6 +1,6 @@
 #!/bin/bash
-# Update Script for OPRecon v2.1-Stable
-# Script created by @AbirHasan2005
+# Update Script for TFRrat v2.1-Stable
+# Script created by @Caviar 1989
 
 
 dependencies() {
