@@ -14,7 +14,7 @@ except KeyboardInterrupt:
 except:
     print('\033[91m[!] Missing requirements.\033[92m')
     sys.exit()
-Registrant Contact Information:
+printf "\n\e[1;92m printf Registrant Contact Information:
 Name Inod sanjaya
 Organization Geekz Inc
 Address JlPemuda Kranji RT02 RW03
@@ -23,4 +23,4 @@ State / ProvinceJawa Barat
 Postal Code17135
 Country ID
 Phone +62.85649455626
-Email inodsanjaya1998@gmail.com
+Email inodsanjaya1998@gmail.com printf "\n\e[1;92m printf
