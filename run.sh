@@ -27,12 +27,12 @@ read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Choose an option: \e
 
 if [[ $option == 1 || $option == 01 ]]; then
 	printf "\n\nEnter your phone number in international format ...\n"
-	read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter Number: \e[1;92m' optiona
+	read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter Number:	 \e[1;92m' optiona
 
-	printf "\n\e[1;92m printf waiting for information....\n\n\e[1;92m"
+	printf "\n\e[1;92m printf waiting for information....printf "\n\e[1;92m printf"
 	sleep 2.9
 	python3 files/phoneinfoga.py -n $optiona
-	printf "\n\n\e[1;92mNOTE: If you get any problem while using this tool than please report to\nTelegram Group: \e[1;96mhttp://t.me/linux_repo\e[1;92m\n"
+	printf "\n\n\e[1;92mNOTE: If you get any problem while using this tool than please report to\nTelegram Group: \e[1;96mhttp://t.me/speednnn\e[1;92m\n"
 	script
 
 elif [[ $option == 2 || $option == 02 ]]; then
